@@ -13,6 +13,7 @@ This folder contains the following files:
 
 * Each example has a unique id.
 * The message attribute contains the entire message so that it provides the context of the belief units.
-* The THOUGHT segments in a message are marked using angled brackets "<" and ">".
+* The two belief discourse units are recorded for each message in the fields "du1" and "du2" respectively.
+* The discourse units in a "message" are marked using angled brackets "<" and ">".
 * Each example is labelled with C (Consonance), D (Dissonance) and N (Neither/Other).
 
