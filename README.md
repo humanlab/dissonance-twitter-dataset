@@ -1,4 +1,4 @@
-# direcct_dataset
+# Dissonance Twitter Dataset
 Dataset collected from annotating tweets for dissonance
 
 This folder contains the following files:
