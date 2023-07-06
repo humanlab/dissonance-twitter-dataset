@@ -1,7 +1,7 @@
 # Dissonance Twitter Dataset
 Dataset collected from annotating tweets for dissonance. The annotation guidelines: 
 ![image info](./annotation_format
-/Annotation sheet format.png)
+/Annotation_Guidelines.jpg)
 
 This folder contains the following files:
 
