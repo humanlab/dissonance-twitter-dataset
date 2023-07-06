@@ -55,4 +55,12 @@ with open('data/train_big.json', 'r') as f:
 df = pd.DataFrame(data)
 ```
 
+## Citation
+
+If you use this dataset, please cite the associated paper:
+
+```
+Varadarajan, et al. "Transfer and Active Learning for Dissonance Detection: Addressing the Rare-Class Challenge." The 61st Annual Meeting of the Association for Computational Linguistic. July 9-14, 2023. Toronto, Canada.
+```
+
 
