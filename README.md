@@ -11,6 +11,8 @@ Tweets were parsed into discourse units, and marked as Belief (Thought or Action
 
 ## Data Organization
 
+In the folder `./data/`, you can find the following files containing the data:
+
 * `train_small.json`: Small train set as described in Section 4.4 of the paper, containing 2924 examples (6.29% dissonance)
 * `train_big.json`: Big train set as described in Section 4.4 of the paper, containing 6649 examples (10.40% dissonance)
 * `dev.json`: The final development set as described in Section 3.1, containing 1484 examples (10.24% dissonance)
@@ -29,7 +31,7 @@ Tweets were parsed into discourse units, and marked as Belief (Thought or Action
 If you would like to use the data in a dictionary by directly reading from the json files:
 ```
 import json
-train_dataset = json.load("train_big.json")
+train_dataset = json.load("data/train_big.json")
 ```
 
 If you prefer dataframes, you could use Python>=3.8 for the following version of pandas to be installed in order to load the dataset:
@@ -41,7 +43,7 @@ Load the dataset using the following code snippet:
 ```
 import json
 import pandas as pd
-with open('train_big.json', 'r') as f:
+with open('data/train_big.json', 'r') as f:
     train_dataset = json.load(f)
 df = pd.DataFrame(data)
 ```
