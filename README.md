@@ -19,9 +19,9 @@ Tweets were parsed into discourse units, and marked as Belief (Thought or Action
 
 ## Data Format:
 
-* Each example has a unique id.
-* The message attribute contains the entire message so that it provides the context of the belief units.
-* The two belief discourse units are recorded for each message in the fields "du1" and "du2" respectively.
-* The discourse units in a "message" are marked using angled brackets "<" and ">".
-* Each example is labelled with C (Consonance), D (Dissonance) and N (Neither/Other).
+* Each example has a unique `id`.
+* The message attribute contains the entire message so that it provides the context of the Belief units.
+* The two belief discourse units are recorded for each message in the fields `du1` and `du2` respectively.
+* The discourse units in a `message` are marked using angled brackets "<" and ">".
+* Each example is classified with a `label` of "C" (Consonance), "D" (Dissonance) and "N" (Neither/Other).
 
