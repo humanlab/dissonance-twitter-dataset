@@ -1,5 +1,5 @@
 # Dissonance Twitter Dataset
-Dataset collected from annotating tweets for dissonance. The annotation guidelines: 
+Dataset collected from annotating tweets for within-person dissonance. The annotators used the following flowchart as a guide: 
 ![image info](./annotation_format/Annotation_Guidelines.jpg)
 
 This folder contains the following files:
