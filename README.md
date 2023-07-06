@@ -9,7 +9,7 @@ Tweets were parsed into discourse units, and marked as Belief (Thought or Action
 
 
 
-## The data in this repository is organized as follows:
+## Data Organization
 
 * `train_small.json`: Small train set as described in Section 4.4 of the paper, containing 2924 examples (6.29% dissonance)
 * `train_big.json`: Big train set as described in Section 4.4 of the paper, containing 6649 examples (10.40% dissonance)
@@ -17,11 +17,18 @@ Tweets were parsed into discourse units, and marked as Belief (Thought or Action
 * `test.json`: The final test set as described in Section 3.1, containing 1456 examples (10.30% dissonance)
 
 
-## Data Format:
+## Data Format
 
 * Each example has a unique `id`.
-* The message attribute contains the entire message so that it provides the context of the Belief units.
+* The `message` contains the entire message so that it provides the context of the Belief units.
 * The two belief discourse units are recorded for each message in the fields `du1` and `du2` respectively.
 * The discourse units in a `message` are marked using angled brackets "<" and ">".
 * Each example is classified with a `label` of "C" (Consonance), "D" (Dissonance) and "N" (Neither/Other).
+
+## Reading the data
+
+```
+import json
+
+```
 
