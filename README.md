@@ -4,9 +4,11 @@ Dataset collected from annotating tweets for within-person dissonance, as descri
 ## Annotation details
 
 The annotations were conducted on a sheet in the following **dissonance-first** format. 
+
 ![annotation format](./annotation_format/annotation_format.png)
 
 The annotators used the following flowchart as a more detailed guide to determining the Dissonance, Consonance and Neither/Other classes: 
+
 ![annotation guidelines](./annotation_format/annotation_guidelines.jpg)
 
 Tweets were parsed into discourse units, and marked as Belief (Thought or Action) or Other, and pairs of beliefs within the same tweet were relayed to annotators for Dissonance annotation.
