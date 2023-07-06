@@ -1,12 +1,15 @@
 # Dissonance Twitter Dataset
-Dataset collected from annotating tweets for within-person dissonance, as described the paper [Transfer and Active Learning for Dissonance Detection: Addressing the Rare Class Challenge](https://arxiv.org/abs/2305.02459). The annotators used the following flowchart as a guide: 
+Dataset collected from annotating tweets for within-person dissonance, as described the paper [Transfer and Active Learning for Dissonance Detection: Addressing the Rare Class Challenge](https://arxiv.org/abs/2305.02459). 
+
+The annotators used the following flowchart as a guide: 
 ![annotation guidelines](./annotation_format/Annotation_Guidelines.jpg)
 
-Tweets were parsed into discourse units, and marked as Belief (thought or action) or Other, and pairs of beliefs within the same tweet were relayed to annotators for Dissonance annotation.
+Tweets were parsed into discourse units, and marked as Belief (Thought or Action) or Other, and pairs of beliefs within the same tweet were relayed to annotators for Dissonance annotation.
+![annotation process](./annotation_format/annotation_process.jpg)
 
 
 
-##This folder contains the following files:
+## The data in this repository is organized as follows:
 
 * train_small.json: Small train set as described in Section 4.4 of the paper, containing 2924 examples (6.29% dissonance)
 * train_big.json: Big train set as described in Section 4.4 of the paper, containing 6649 examples (10.40% dissonance)
