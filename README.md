@@ -1,5 +1,5 @@
 # Dissonance Twitter Dataset
-Dataset collected from annotating tweets for within-person dissonance, as described the paper [Transfer and Active Learning for Dissonance Detection: Addressing the Rare Class Challenge](https://arxiv.org/abs/2305.02459). 
+Dataset collected from annotating tweets for within-person dissonance, as described in our paper [Transfer and Active Learning for Dissonance Detection: Addressing the Rare Class Challenge](https://arxiv.org/abs/2305.02459). 
 
 The annotators used the following flowchart as a guide: 
 ![annotation guidelines](./annotation_format/Annotation_Guidelines.jpg)
