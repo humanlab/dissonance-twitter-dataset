@@ -43,10 +43,8 @@ import json
 train_dataset = json.load("data/train_big.json")
 ```
 
-If you prefer dataframes, you could use Python>=3.8 for the following version of pandas to be installed in order to load the dataset:
-```
-pip install pandas==1.4.1
-```
+If you prefer dataframes, pandas should be installed in order to load the dataset. 
+```pip install pandas```
 
 Load the dataset using the following code snippet:
 ```
