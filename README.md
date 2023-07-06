@@ -26,9 +26,24 @@ Tweets were parsed into discourse units, and marked as Belief (Thought or Action
 * Each example is classified with a `label` of "C" (Consonance), "D" (Dissonance) and "N" (Neither/Other).
 
 ## Reading the data
-
+If you would like to use the data in a dictionary by directly reading from the json files:
 ```
 import json
-
+train_dataset = json.load("train_big.json")
 ```
+
+If you prefer dataframes, you could use Python>=3.8 for the following version of pandas to be installed in order to load the dataset:
+```
+pip install pandas==1.4.1
+```
+
+Load the dataset using the following code snippet:
+```
+import json
+import pandas as pd
+with open('train_big.json', 'r') as f:
+    train_dataset = json.load(f)
+df = pd.DataFrame(data)
+```
+
 
